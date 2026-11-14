@@ -185,9 +185,7 @@ class _MarcadorPageState extends State<MarcadorPage> {
 
               const SizedBox(height: 16), // Separación vertical
 
-              // ===============================================================
               // 3. ZONA CENTRAL: Los dos equipos con ColumnaEquipo
-              // ===============================================================
               // Expanded permite que los equipos absorban todo el alto disponible
               Expanded(
                 child: Row(
@@ -221,9 +219,7 @@ class _MarcadorPageState extends State<MarcadorPage> {
 
               const SizedBox(height: 16), // Separación vertical
 
-              // ===============================================================
               // 4. ZONA INFERIOR: Botón RESET
-              // ===============================================================
               OutlinedButton.icon(
                 onPressed: resetMarcador, // Al pulsar, llama a resetear()
                 icon: const Icon(
